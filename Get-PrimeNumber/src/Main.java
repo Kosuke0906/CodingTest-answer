@@ -10,15 +10,6 @@ public class Main {
 				System.out.println(array[i]);
 			}
 		}
-
-	    long total = Runtime.getRuntime().totalMemory();
-	    long free = Runtime.getRuntime().freeMemory();
-	    long used = total - free;
-	    long max = Runtime.getRuntime().maxMemory();
-	    System.out.println("total => " + total  + "Byte");
-	    System.out.println("free  => " + free+ "Byte");
-	    System.out.println("used  => " + used + "Byte");
-	    System.out.println("max   => " + max + "Byte");
 	}
 	public static boolean judgePrime(int i) {
 		for(int a = 2;a<=array[i]/2;a++) {
